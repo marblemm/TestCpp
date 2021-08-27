@@ -1,0 +1,5 @@
+add_executable(chrono_example chromo_example.cpp)
+add_executable(chrono_compare_clock chrono_compare_clock.cpp)
+add_executable(chrono_time1 chrono_time1.cpp)
+add_executable(chrono_time2 chrono_time2.cpp)
+add_executable(chrono_time3 chrono_time3.cpp)

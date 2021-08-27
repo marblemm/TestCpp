@@ -1,0 +1,13 @@
+add_executable(singleton_base singleton_base.cpp)
+
+add_executable(singleton_base_mutex singleton_base_mutex.cpp)
+
+add_executable(singleton_magic_static singleton_magic_static.cpp)
+
+add_executable(singleton_ref_ret_function singleton_ref_ret_function.cpp)
+
+add_executable(singleton_ref_ret_function_template singleton_ref_ret_function_template.cpp)
+
+add_executable(singleton_inherit singleton_inherit.cpp)
+
+add_executable(singleton_inherit_ex singleton_inherit_ex.cpp)
