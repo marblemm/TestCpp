@@ -11,3 +11,11 @@ add_executable(singleton_ref_ret_function_template singleton_ref_ret_function_te
 add_executable(singleton_inherit singleton_inherit.cpp)
 
 add_executable(singleton_inherit_ex singleton_inherit_ex.cpp)
+
+set_target_properties(singleton_base PROPERTIES FOLDER "singleton")
+set_target_properties(singleton_base_mutex PROPERTIES FOLDER "singleton")
+set_target_properties(singleton_magic_static PROPERTIES FOLDER "singleton")
+set_target_properties(singleton_ref_ret_function PROPERTIES FOLDER "singleton")
+set_target_properties(singleton_ref_ret_function_template PROPERTIES FOLDER "singleton")
+set_target_properties(singleton_inherit PROPERTIES FOLDER "singleton")
+set_target_properties(singleton_inherit_ex PROPERTIES FOLDER "singleton")
