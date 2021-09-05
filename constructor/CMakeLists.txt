@@ -1,0 +1,3 @@
+add_executable(constructor_initial_list_no constructor_initial_list_no.cpp)
+add_executable(constructor_initial_list_yes constructor_initial_list_yes.cpp)
+add_executable(constructor_demo constructor_demo.cpp)
