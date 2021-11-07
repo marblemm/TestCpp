@@ -1,0 +1,4 @@
+//BeginningCOM.def
+LIBRARY    "BeginningCOM"
+EXPORTS
+    DllGetClassObject private

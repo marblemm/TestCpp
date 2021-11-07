@@ -1,0 +1,12 @@
+# 声明编译要求cmake最低版本
+CMAKE_MINIMUM_REQUIRED(VERSION 3.0)
+
+# ADD_DEFINITIONS(-std=c++11)
+
+# 添加子目录, 并指定指定中间二进制和目标二进制存放的位置
+ADD_SUBDIRECTORY(faststring)
+ADD_SUBDIRECTORY(test)
+ADD_SUBDIRECTORY(comdemo1)
+ADD_SUBDIRECTORY(comtest1)
+ADD_SUBDIRECTORY(comdemo2)
+ADD_SUBDIRECTORY(comtest2)
